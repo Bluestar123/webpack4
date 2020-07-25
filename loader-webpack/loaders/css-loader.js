@@ -1,4 +1,5 @@
 function loader(source) {
+	console.log('css-loader11111111111')
 	let reg = /url\((.+?)\)/g
 	let pos = 0
 	let current
